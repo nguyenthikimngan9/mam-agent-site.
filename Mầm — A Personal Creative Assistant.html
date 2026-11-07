@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1729">
+  <title>Mầm — A Personal Creative Assistant</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0e1729;--panel:#1e2b40;--tile:#20344a;--line:#34455e;--blue:#43bdf0;--muted:#9bb5d7;--white:#f4f7fc}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font:16px/1.7 'Segoe UI',Arial,sans-serif}
+    .page{max-width:920px;margin:0 auto;padding:42px 26px 64px}.brand{display:flex;align-items:center;gap:18px;color:var(--blue);font-size:40px;font-weight:700;line-height:1.2}.brand-icon{font-size:38px}
+    .subtitle{font-size:17px;color:var(--muted);margin:17px 0 30px}.summary{background:#142d45;border-left:4px solid #43c8f2;border-radius:0 9px 9px 0;padding:16px 20px;margin-bottom:14px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:24px 26px;margin-top:18px}.card h2{font-size:20px;color:var(--blue);margin:0 0 14px}.card p{margin:10px 0}.tools{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tool{background:var(--tile);border-radius:9px;padding:13px 14px}.tool b{display:block;margin-bottom:2px}.tool span{color:var(--muted)}
+    .workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}.phase{background:var(--tile);border:1px solid #2d4661;border-radius:10px;padding:13px}.phase b{display:block;color:#fff;font-size:14px}.phase small{display:block;color:var(--muted);margin-top:4px}
+    .script{background:#142033;border-radius:10px;padding:16px 18px;margin:12px 0}.script p{margin:8px 0}.footer{text-align:center;color:#8197b6;font-size:13px;margin:28px 0 0}
+    @media(max-width:650px){.page{padding:28px 16px}.brand{font-size:34px}.tools{grid-template-columns:1fr}.workflow{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="brand"><span class="brand-icon" aria-hidden="true">🌱</span><span>Mầm</span></div>
+    <p class="subtitle">A personal creative assistant for a short school video project about reusable water bottles</p>
+  </header>
+  <section class="summary"><b>📌 In one sentence:</b> Mầm is a project assistant designed to help its owner plan a short, vertical awareness video encouraging students to bring reusable water bottles and reduce single-use plastic.</section>
+  <section class="card" id="about">
+    <h2>💡 What it is</h2>
+    <p>Mầm supports a student-made 20–30 second video with the message <b>“Bring your own bottle — choose reuse.”</b> The assistant can help shape the idea, write a scene-by-scene script, suggest captions and voice-over, and prepare a simple shot list.</p>
+    <p>The project focuses on a practical everyday action. Mầm does not invent statistics, school survey results, or personal experiences. It asks the owner before writing from their point of view and flags information or image permissions that still need checking.</p>
+  </section>
+  <section class="card" id="tools">
+    <h2>🛠️ Tools and project resources</h2>
+    <div class="tools">
+      <div class="tool"><b>Creative planning</b><span>Develops the message, audience, storyboard, and shot order for a short awareness video.</span></div>
+      <div class="tool"><b>Script and captions</b><span>Drafts concise voice-over lines and readable on-screen text for a vertical format.</span></div>
+      <div class="tool"><b>Visual materials</b><span>Uses original footage or permitted images; source links and credits should be kept.</span></div>
+      <div class="tool"><b>Video editing</b><span>A simple edit can combine visuals, captions, voice-over, and music. The production route and final render still need to be confirmed.</span></div>
+    </div>
+  </section>
+  <section class="card" id="workflow">
+    <h2>🔄 Standard workflow</h2>
+    <p><b>Flow:</b> Receive → Clarify → Verify materials → Draft content → Review boundaries → Deliver → Close</p>
+    <div class="workflow">
+      <div class="phase"><b>1 · Receive</b><small>Record the assignment, format, duration, and material limits.</small></div>
+      <div class="phase"><b>2 · Understand</b><small>Identify the audience and the action the video encourages.</small></div>
+      <div class="phase"><b>3 · Verify</b><small>Check facts, sources, and image usage rights.</small></div>
+      <div class="phase"><b>4 · Draft</b><small>Prepare voice-over, shots, captions, and audio ideas.</small></div>
+      <div class="phase"><b>5 · Review</b><small>Remove unsupported claims and unclear image permissions.</small></div>
+      <div class="phase"><b>6 · Deliver</b><small>Share the script, material list, and open questions.</small></div>
+      <div class="phase"><b>7 · Close</b><small>Summarize completed work for the owner's review.</small></div>
+    </div>
+  </section>
+  <section class="card" id="sample">
+    <h2>🎬 Sample project</h2>
+    <div class="script">
+      <p><b>25-second video · “One Bottle, One Choice”</b></p>
+      <p><b>0–4 sec:</b> Close-up of a plastic bottle on a desk. Text: “What are you drinking from today?”</p>
+      <p><b>4–10 sec:</b> Fill a reusable bottle and put it in a backpack. Voice-over: “A reusable bottle can go with you every day.”</p>
+      <p><b>10–18 sec:</b> Set the bottle beside books in class. Text: “Bring it · Refill it · Reuse it”</p>
+      <p><b>18–25 sec:</b> Pick up the bottle and leave the classroom. Voice-over: “Tomorrow, try bringing your bottle.”</p>
+    </div>
+    <p><b>Production note:</b> Use your own footage or images with suitable permissions. Do not claim a measured reduction unless it has actually been measured.</p>
+  </section>
+  <p class="footer">Mầm helps prepare the work; the project owner reviews and submits it.</p>
+</main>
+</body>
+</html>
